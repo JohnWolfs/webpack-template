@@ -1,0 +1,10 @@
+%clearfix {
+    overflow:hidden;_zoom:1;
+    &:after {
+        clear: both;
+        content: '.';
+        display: block;
+        height: 0;
+        visibility: hidden;
+    }
+}

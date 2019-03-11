@@ -1,0 +1,33 @@
+
+/* sass变量
+=================================================== */
+
+/* 颜色
+========================== */
+
+$bgColor: #f6f6f6;
+$primaryColor: #5097fe;
+
+// 字体颜色
+$fontColor: #4b4b4b;
+$lightFontColor1: #666666;
+$lightFontColor2: #888888;
+$lightFontColor3: #acafb3;
+$lightFontColor4: #e6e6e6;
+
+// 边框颜色
+$borderColor: #dddddd;
+$lightBorderColor: #f4f4f4;
+$iconColor: #dddddd;
+
+// 模块之间间距
+$moduleSpace: p2r(20px);
+$modulePadding: p2r(16px) p2r(22px);
+
+// 资源时间戳
+$date: 20170901017;
+
+
+$layerFloatTool: 9999;
+$layerWeixinTips: 99999;
+$layerToast: 10000;

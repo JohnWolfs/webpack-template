@@ -1,0 +1,31 @@
+
+body {
+  line-height: 1;
+}
+
+/** 宽度容器 **/
+.wrapper {
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/** 浮动修复 **/
+.clearfix{overflow:hidden;_zoom:1;}
+
+/** 通用底部 **/
+.footer {
+    padding: 30px 0;
+    p {
+        text-align: center;
+        margin-bottom: 12px;
+        color: #a7aab0;
+        font-size: 14px;
+    }
+}
+
+/** 通用块级容器 **/
+.section {
+    position: relative;
+    overflow: hidden;
+}

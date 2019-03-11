@@ -1,0 +1,8 @@
+@mixin size($w, $h) {
+    height: $h / $rem * 1rem;
+    width: $w / $rem * 1rem;
+}
+
+@mixin fontsize($px) {
+    font-size: $px / $rem * 1rem;
+}
